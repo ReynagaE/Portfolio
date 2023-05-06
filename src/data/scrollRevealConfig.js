@@ -44,6 +44,20 @@ export const targetElements = [
     },
   },
   {
+    element: ".skills-wrapper__image",
+    animation: {
+      delay: 600,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".skills-wrapper__info",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
     element: ".project-wrapper__text",
     animation: {
       delay: 500,
