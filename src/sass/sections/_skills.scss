@@ -81,17 +81,29 @@
     i {
         font-size: 10rem;
         color: black;
+        justify-content: center;
       }
     .icon-wrapper {
         border: 5px solid black ;
         padding: 15px;
         border-radius: 15%;
         transition: 0.5s;
-        margin: 5px;
+        display: flex;
     }
     .icon-wrapper:hover{
         color: white;
         box-shadow: 0 0 15px white ,
                     0 0 10px white inset;
     }
+  }
+
+  .row {
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  }
+
+  .col {
+    margin-bottom: 5px;
+    display: inline-block;
   }
